@@ -11,14 +11,12 @@
             "id": "6737c24f48af774b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "docs/CA2/device-proof.png.md",
-                "mode": "source",
-                "source": false
+                "file": "docs/CA2/device-proof.png"
               },
-              "icon": "lucide-file",
-              "title": "device-proof.png"
+              "icon": "lucide-image",
+              "title": "device-proof"
             }
           }
         ]
@@ -190,19 +188,21 @@
   },
   "active": "6737c24f48af774b",
   "lastOpenFiles": [
-    "Screenshot_20261115_135356_Mobile App Game Dev.jpg",
     "docs/CA2/Checklist.md",
     "docs/CA2/device-proof.png.md",
-    "Library/BuildHistory/20261115-132604Z-e675fb4f/BuildPlayerTEP.json",
-    "Library/BuildHistory/20261115-132604Z-e675fb4f/e675fb4f7353ea84aab60b6824f49d48.buildreport",
-    "Library/BuildHistory/20261115-132604Z-e675fb4f/ContentSizeSummary.txt",
-    "releases/MyGame-0.7.0-arm64_BackUpThisFolder_ButDontShipItWithYourGame/Managed/icallsummary.txt",
-    "Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3856733d/logs/arm64-v8a/generate_cxx_metadata_269_timing.txt",
-    "Temp/StagingArea/gradleWarmupArea/settings.gradle",
-    "Temp/StagingArea/gradleWarmupArea",
-    "Library/Bee/TundraBuildState.state",
-    "Library/Bee/artifacts/objcopy_5lmi/libil2cpp.so.temp-stream-513dd4",
-    "Library/Bee/artifacts/objcopy_5lmi/stripped/libil2cpp.so.temp-stream-6c8a89",
+    "docs/CA2/device-proof.png",
+    "Temp/UnityTempFile-5481b6754b02fbb4f8dddb9548c083ee",
+    "Temp/UnityTempFile-ec769e414f07f314b9b2c60705b2705f",
+    "Temp/UnityTempFile-dabcf72c9218c704a93c3e51ca02d25b",
+    "Temp/UnityTempFile-33d87d52d7f7abb47a409b9d2055e8a8",
+    "Temp/UnityTempFile-14a319b8bf9cd524b9f39f8ee300fa17",
+    "Temp/UnityTempFile-a8f8c36327f7636419df34f8dad69508",
+    "Temp/UnityTempFile-8ba36ff01f76b2e4db0931d64f730f43",
+    "Temp/UnityTempFile-a720ff0532c3a2f44bfa2dc89b7f9c07",
+    "Temp/UnityTempFile-f11512e541c5f4049b390318058aa692",
+    "Temp/UnityTempFile-c632d5b959f26624c8bb368bfed36ede",
+    "docs/CA2/Screenshot_20261115_135356_Mobile App Game Dev.jpg",
+    "Screenshot_20261115_135356_Mobile App Game Dev.jpg",
     "docs/CA3/qa/survey/form-link.md",
     "docs/CA3/qa/Builds.md",
     "KnownIssues.md",
