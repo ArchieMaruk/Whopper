@@ -1179,6 +1179,7 @@ GameObject:
   - component: {fileID: 1616190808}
   - component: {fileID: 1616190809}
   - component: {fileID: 1616190810}
+  - component: {fileID: 1616190811}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1316,6 +1317,20 @@ MonoBehaviour:
   coinsLabel: {fileID: 183060485}
   upgradeButton: {fileID: 1643897309}
   upgradeLabel: {fileID: 1920500789}
+--- !u!114 &1616190811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616190802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a234c63c366ccb546807ee95df10aa37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BackButton
+  action: 1
+  sceneName: Menu
 --- !u!1 &1643897307
 GameObject:
   m_ObjectHideFlags: 0

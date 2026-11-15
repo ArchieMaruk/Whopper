@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/dev-journal.md",
+                "file": "docs/CA2/device-proof.png.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dev-journal"
+              "title": "device-proof.png"
             }
           }
         ]
@@ -42,7 +42,7 @@
               "state": {
                 "sortOrder": "alphabetical",
                 "autoReveal": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
@@ -190,29 +190,38 @@
   },
   "active": "6737c24f48af774b",
   "lastOpenFiles": [
-    "Temp/UnityTempFile-3dbb3f78c6297dd4cba3b8b708aa0a77",
-    "Temp/UnityTempFile-5560254c978264d4b889ee83fbbf390e",
-    "Temp/__Backupscenes/0.backup",
-    "Temp/UnityTempFile-08b2a3b0678c81049aa3d0796ee1c3f8",
-    "Temp/__Backupscenes",
+    "Screenshot_20261115_135356_Mobile App Game Dev.jpg",
+    "docs/CA2/Checklist.md",
+    "docs/CA2/device-proof.png.md",
+    "Library/BuildHistory/20261115-132604Z-e675fb4f/BuildPlayerTEP.json",
+    "Library/BuildHistory/20261115-132604Z-e675fb4f/e675fb4f7353ea84aab60b6824f49d48.buildreport",
+    "Library/BuildHistory/20261115-132604Z-e675fb4f/ContentSizeSummary.txt",
+    "releases/MyGame-0.7.0-arm64_BackUpThisFolder_ButDontShipItWithYourGame/Managed/icallsummary.txt",
+    "Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3856733d/logs/arm64-v8a/generate_cxx_metadata_269_timing.txt",
+    "Temp/StagingArea/gradleWarmupArea/settings.gradle",
+    "Temp/StagingArea/gradleWarmupArea",
     "Library/Bee/TundraBuildState.state",
-    "Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.ref.dll",
-    "Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.pdb",
-    "Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll",
-    "Temp/ADB-Refresh0ba7d275a0e9d3a47958923aef60f068",
-    "Temp/UnityTempFile-694a7850c0e285b43bf27ab8ce0595dc",
+    "Library/Bee/artifacts/objcopy_5lmi/libil2cpp.so.temp-stream-513dd4",
+    "Library/Bee/artifacts/objcopy_5lmi/stripped/libil2cpp.so.temp-stream-6c8a89",
+    "docs/CA3/qa/survey/form-link.md",
+    "docs/CA3/qa/Builds.md",
+    "KnownIssues.md",
     "README.md",
+    "docs/CA2/Performance_Baseline.md",
+    "ProfilerCaptures/Mobile App Game Dev_2026-11-15_12-42-13.png",
+    "LINKS.md",
+    "docs/CA2/Reflective_Journal.md",
+    "docs/CA2/Economy_Telemetry_Map.md",
+    "docs/CA2/baseline/bottleneck-01.md",
+    "docs/CA2/baseline/baseline-sheet.md",
+    "docs/dev-journal.md",
     "docs/CA3/qa/qr-0.6.0.md",
     "docs/CA3/qa/test-plan.md",
     "docs/CA3/qa/device-matrix.md",
     "docs/CA3/qa/qr-0.6.0.png",
     "docs/CA3/qa/Test plan – Whopper 0.6.0 (build 28fbc052), Galaxy S26+ (Android 17).md",
     "docs/CA3/qa/Untitled 1.png",
-    "docs/CA3/qa/Builds.md",
-    "KnownIssues.md",
     "docs/CA3/qa/screens/rotation.png",
-    "docs/CA2/baseline/baseline-sheet.md",
-    "docs/CA3/qa/Device matrix – Whopper closed test.md",
-    "docs/CA3/qa/survey/form-link.md"
+    "docs/CA3/qa/Device matrix – Whopper closed test.md"
   ]
 }

@@ -1,0 +1,7 @@
+`Repository: https://github.com/ArchieMaruk/Mobile-App-Game-Development`
+
+`Release tag: v0.2-CA2`
+
+`Release page: https://github.com/ArchieMaruk/Mobile-App-Game-Development/releases/tag/v0.2-CA2`
+
+`Gameplay Video: https://youtu.be/HgSeDpv-yw8

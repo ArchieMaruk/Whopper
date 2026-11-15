@@ -2875,8 +2875,8 @@ MonoBehaviour:
   pickups: {fileID: 28138004}
   laneWidth: 2
   spawnZ: 40
-  startGap: 1.6
-  endGap: 0.8
+  startGap: 2
+  endGap: 1.5
   testChunk: -1
 --- !u!1 &1131745545
 GameObject:
