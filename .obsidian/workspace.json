@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "docs/CA2/device-proof.png"
+                "file": "docs/async/AP2-store-presence/screenshots/06-upgrade.jpg"
               },
               "icon": "lucide-image",
-              "title": "device-proof"
+              "title": "06-upgrade"
             }
           }
         ]
@@ -188,40 +188,47 @@
   },
   "active": "6737c24f48af774b",
   "lastOpenFiles": [
+    "docs/async/AP2-store-presence/screenshots/05-slide.jpg",
+    "docs/async/AP2-store-presence/screenshots/04-missions.jpg",
+    "docs/async/AP2-store-presence/screenshots/03-dodge.jpg",
+    "docs/async/AP2-store-presence/screenshots/02-pickups.jpg",
+    "docs/async/AP2-store-presence/screenshots/01-jump.jpg",
+    "docs/async/AP2-store-presence/icon-draft.png",
+    "docs/async/AP2-store-presence/Whopper – Store Presence Draft.pdf",
+    "docs/async/AP2-store-presence/Listing.md",
+    "docs/async/AP2-store-presence/icon-draft.md",
+    "docs/async/AP2-store-presence/screenshots/Screenshot_20261116_104221_Mobile App Game Dev.jpg",
+    "docs/async/AP2-store-presence/screenshots/06-upgrade.jpg",
+    "docs/CA1/store-assets-checklist.md",
+    "docs/async/AP2-store-presence/screenshots",
+    "docs/async/AP2-store-presence",
+    "docs/async",
     "docs/CA2/Checklist.md",
-    "docs/CA2/device-proof.png.md",
     "docs/CA2/device-proof.png",
+    "docs/CA2/Economy_Telemetry_Map.md",
+    "docs/CA2/Reflective_Journal.md",
+    "docs/CA2/Performance_Baseline.md",
+    "docs/CA3/qa/survey/form-link.md",
+    "docs/mda-onepager.md",
+    "README.md",
+    "docs/CA2/device-proof.png.md",
     "Temp/UnityTempFile-5481b6754b02fbb4f8dddb9548c083ee",
     "Temp/UnityTempFile-ec769e414f07f314b9b2c60705b2705f",
     "Temp/UnityTempFile-dabcf72c9218c704a93c3e51ca02d25b",
     "Temp/UnityTempFile-33d87d52d7f7abb47a409b9d2055e8a8",
     "Temp/UnityTempFile-14a319b8bf9cd524b9f39f8ee300fa17",
     "Temp/UnityTempFile-a8f8c36327f7636419df34f8dad69508",
-    "Temp/UnityTempFile-8ba36ff01f76b2e4db0931d64f730f43",
-    "Temp/UnityTempFile-a720ff0532c3a2f44bfa2dc89b7f9c07",
-    "Temp/UnityTempFile-f11512e541c5f4049b390318058aa692",
-    "Temp/UnityTempFile-c632d5b959f26624c8bb368bfed36ede",
     "docs/CA2/Screenshot_20261115_135356_Mobile App Game Dev.jpg",
-    "Screenshot_20261115_135356_Mobile App Game Dev.jpg",
-    "docs/CA3/qa/survey/form-link.md",
     "docs/CA3/qa/Builds.md",
     "KnownIssues.md",
-    "README.md",
-    "docs/CA2/Performance_Baseline.md",
-    "ProfilerCaptures/Mobile App Game Dev_2026-11-15_12-42-13.png",
     "LINKS.md",
-    "docs/CA2/Reflective_Journal.md",
-    "docs/CA2/Economy_Telemetry_Map.md",
     "docs/CA2/baseline/bottleneck-01.md",
     "docs/CA2/baseline/baseline-sheet.md",
     "docs/dev-journal.md",
     "docs/CA3/qa/qr-0.6.0.md",
     "docs/CA3/qa/test-plan.md",
     "docs/CA3/qa/device-matrix.md",
-    "docs/CA3/qa/qr-0.6.0.png",
     "docs/CA3/qa/Test plan – Whopper 0.6.0 (build 28fbc052), Galaxy S26+ (Android 17).md",
-    "docs/CA3/qa/Untitled 1.png",
-    "docs/CA3/qa/screens/rotation.png",
     "docs/CA3/qa/Device matrix – Whopper closed test.md"
   ]
 }

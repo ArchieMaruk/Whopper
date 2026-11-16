@@ -6,5 +6,5 @@
 - [x] Telemetry events fire in the right places; event map written
 - [x] README with build steps, controls, device targets; Known Issues honest
 - [x] Reflective journal 1,000 to 1,500 words, structured, evidence-based
-- [ ] 3 to 5 minute gameplay capture recorded (boot, menu, one run, pause and resume, relaunch)
+- [x] 3 to 5 minute gameplay capture recorded (boot, menu, one run, pause and resume, relaunch)
 - [x] Showcase in class (Wed 11 Nov 2026)
