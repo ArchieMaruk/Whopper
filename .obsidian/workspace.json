@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/dev-journal.md",
+                "file": "docs/store/Descriptions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dev-journal"
+              "title": "Descriptions"
             }
           }
         ]
@@ -190,35 +190,39 @@
   },
   "active": "6737c24f48af774b",
   "lastOpenFiles": [
+    "docs/store/Asset Checklist.md",
+    "docs/store/descriptions.md",
+    "docs/store/asset-checklist.md",
+    "docs/store/Descriptions.md",
+    "docs/dev-journal.md",
+    "Temp/ADB-Refreshe556026c06a83404c8a7b1499a659ad7",
+    "Temp/UnityTempFile-bf92ab5ddeb5b6f448f0ea74fc3bf45d",
+    "Temp/Burst/burst-aotcthgrlzv.1ah",
+    "Temp/Burst/burst-aotcosiisrz.l0z",
+    "Temp/Burst/burst-aotasr5a5bq.lua",
+    "Temp/Burst/burst-aot0ntoad3b.2ow",
+    "Temp/Burst/burst-aot1p44re0l.pwc",
+    "Temp/Burst/burst-aotxjicgjfl.52j",
+    "Temp/Burst/burst-aotzdqz5sny.4gt",
+    "Temp/Burst/burst-aottwid3rpv.tgn",
+    "docs/store/icon-512.png",
+    "docs/store/feature-1024x500.png",
     "docs/CA3/store/screenshots/06-upgrade.jpg",
     "docs/CA3/store/screenshots/04-missions.jpg",
     "docs/CA3/store/screenshots/05-slide.jpg",
     "docs/CA3/store/screenshots/03-dodge.jpg",
     "docs/CA3/store/screenshots/02-pickups.jpg",
     "docs/CA3/store/screenshots/01-jump.jpg",
-    "docs/CA3/store/Whopper – Store Presence Draft.pdf",
-    "docs/CA3/store/screenshots",
     "docs/CA3/store/Listing.md",
     "docs/CA3/store/icon-draft.png",
-    "docs/CA3/store",
     "docs/CA3/Targets.md",
     "docs/CA3/qa/screens/rotation.png",
-    "docs/async/AP2-store-presence/screenshots/06-upgrade.jpg",
     "Mobile Game Dev Vault/Labsheets/W10-LabA-LabSheet.md",
     "Mobile Game Dev Vault/W10-LabA-LabSheet.md",
     "Mobile Game Dev Vault/Labsheets/W09-LabB-LabSheet.md",
     "Mobile Game Dev Vault/Labsheets/W09-LabA-LabSheet.md",
     "Mobile Game Dev Vault/W09-LabB-LabSheet.md",
-    "Mobile Game Dev Vault/A12581-W09-LabB-CA2-showcase-and-the-final-sprint.pptx",
     "Mobile Game Dev Vault/W09-LabA-LabSheet.md",
-    "Temp/obj/Assembly-CSharp/Assembly-CSharp.GeneratedMSBuildEditorConfig.editorconfig",
-    "Temp/obj/Assembly-CSharp/Assembly-CSharp.csproj.AssemblyReference.cache",
-    "Temp/obj/Unity.2D.Welcome/Unity.2D.Welcome.GeneratedMSBuildEditorConfig.editorconfig",
-    "Temp/obj/Unity.2D.Welcome/Unity.2D.Welcome.csproj.AssemblyReference.cache",
-    "Temp/obj/Assembly-CSharp/Assembly-CSharp.assets.cache",
-    "Temp/bin/Debug",
-    "docs/async/AP2-store-presence/screenshots/05-slide.jpg",
-    "docs/async/AP2-store-presence/screenshots/04-missions.jpg",
     "docs/async/AP2-store-presence/Listing.md",
     "docs/async/AP2-store-presence/icon-draft.md",
     "docs/CA1/store-assets-checklist.md",
@@ -231,10 +235,6 @@
     "README.md",
     "docs/CA2/device-proof.png.md",
     "docs/CA3/qa/Builds.md",
-    "KnownIssues.md",
-    "LINKS.md",
-    "docs/CA2/baseline/bottleneck-01.md",
-    "docs/CA2/baseline/baseline-sheet.md",
-    "docs/dev-journal.md"
+    "KnownIssues.md"
   ]
 }
