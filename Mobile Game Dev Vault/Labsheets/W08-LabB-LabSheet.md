@@ -74,14 +74,14 @@ adb logcat --pid=$(adb shell pidof com.setu.mygame)
 ## Part C: Run the six scenarios (~40 min)
 Create `/docs/CA3/qa/test-plan.md` with this table and fill one row per scenario as you go. Evidence is one logcat line or one screenshot per row.
 
-| # | Scenario | Trigger | Expected | Pass/Fail | Evidence |
-|---|----------|---------|----------|-----------|----------|
-| 1 | Resume / background | Home, wait 30 s, relaunch; then force-stop and relaunch | Paused, audio silent, resumes in place; save intact after force-stop | | |
-| 2 | No network | Airplane mode on before launch, and again mid-play | No hang, no unhandled exception; online features fail quietly | | |
-| 3 | Rotation | Rotate mid-play, or verify the locked orientation holds | Safe areas respected; no stretched UI; no restart | | |
-| 4 | Battery saver | Enable, play 2 minutes | Frame cap respected; playable; overlay shows the change | | |
-| 5 | Low RAM | Trim memory, background, return | Returns without a black screen; if killed, relaunch restores the save | | |
-| 6 | Cold and warm start | Part A commands | TotalTime recorded; loading screen never hangs | | |
+| #   | Scenario            | Trigger                                                 | Expected                                                              | Pass/Fail | Evidence |
+| --- | ------------------- | ------------------------------------------------------- | --------------------------------------------------------------------- | --------- | -------- |
+| 1   | Resume / background | Home, wait 30 s, relaunch; then force-stop and relaunch | Paused, audio silent, resumes in place; save intact after force-stop  |           |          |
+| 2   | No network          | Airplane mode on before launch, and again mid-play      | No hang, no unhandled exception; online features fail quietly         |           |          |
+| 3   | Rotation            | Rotate mid-play, or verify the locked orientation holds | Safe areas respected; no stretched UI; no restart                     |           |          |
+| 4   | Battery saver       | Enable, play 2 minutes                                  | Frame cap respected; playable; overlay shows the change               |           |          |
+| 5   | Low RAM             | Trim memory, background, return                         | Returns without a black screen; if killed, relaunch restores the save |           |          |
+| 6   | Cold and warm start | Part A commands                                         | TotalTime recorded; loading screen never hangs                        |           |          |
 
 Triggers from the terminal (undo each one afterwards):
 

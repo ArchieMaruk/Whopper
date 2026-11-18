@@ -18,8 +18,6 @@ The first core verb for my game would be to swipe(dodge/turn) and the first thin
 |Power button off, then on|Paused ✅|
 |Force stop in Settings > Apps, then relaunch|Progress is still there✅|
 
----
-
 ## Date: 25/09/2026
 
 ### Week 3 Lab A – Part B (CPU capture)
@@ -362,6 +360,119 @@ The first core verb for my game would be to swipe(dodge/turn) and the first thin
 
 ---
 
+## Date: 10/11/2026
+
+### Vertical slice – floor
+
+- Kitchen tile texture (ambientCG Tiles074, CC0) on the floor, with a normal map.
+- FloorScroll moves the texture offset by GameManager's speed, so the floor appears to move toward the player at the same speed as the hazards.
+
+### Vertical slice – chunks (10 total)
+
+- Five new combo chunks: knife then bottles, dish rack then a bottle, zigzag, a coin arc over a knife, and a bottle wall with coins in the gap.
+- A Test Chunk field on the spawner spawns only one chunk type, for testing; -1 means random.
+
+### Vertical slice – missions
+
+- MissionManager holds 8 preset missions (run a distance, collect pickups, jump, slide, change lanes) and picks 3 per run, one per type.
+- RunnerController and PlayerHit report jumps, slides, lane changes and pickups; distance is read from GameManager.
+- Completing a mission pays its coins into the wallet straight away; MissionHud shows progress and turns finished missions green.
+
+### Vertical slice – main menu
+
+- Burger player model with a run animation in the game, and a new idle animation (breathing and swaying) on the menu.
+- Main menu now has the Whopper title, a bigger Play button and a kitchen background image behind the burger.
+
+### Fixes
+
+- The floor texture smeared over time because its Wrap Mode was Clamp; set it to Repeat, and Aniso Level 8 so far tiles stay sharp.
+- Tiles moved slower than the hazards because Floor Length was left at 100; the floor is a Plane with Scale Z 6, so 60 m.
+- The menu title showed dark red instead of orange because the TextMeshPro material's Face colour wasn't white.
+- The burger disappeared behind the menu background; raised the background canvas Plane Distance from 10 to 50.
+- A build didn't appear on the phone because I pressed Build instead of Build And Run; installed the APK with `adb install -r` instead.
+
+---
+
+## Date: 11/11/2026
+
+### CA2 showcase
+
+- Presented the vertical slice live in the lab.
+
+### Vertical slice – hazards
+
+- RandomModel picks one of several models each time a hazard spawns, so blocks can be a ketchup bottle, mustard bottle, carton, cup or wine bottle, all sharing one collider.
+
+### Fixes
+
+- The knife-and-bottles chunk had the knife going through the bottles; moved the bottles 8 m behind the knife.
+- Three-wide walls appeared at high speed because a long chunk overlapped the next one. SpawnChunk now returns the chunk's length and the spawner waits for it.
+- Some sections were impossible: a jump (about 1.3 s in the air, about 26 m at top speed) landed inside the next chunk, which was only 16 m away. Raised Start Gap and End Gap from 1.6 / 0.8 s to 2.0 / 1.5 s.
+- The zigzag made you cross two lanes every 8 m; changed it to a staircase that moves one lane per row, 12 m apart.
+- All the random models showed at once in play, because some weren't in the Random Model list; added them all.
+- The mission text was tiny and under the camera cut-out; moved it below the coins and made it bigger.
+- GitHub reported the repository had moved to my new username; updated the remote with `git remote set-url`.
+
+---
+
+## Date: 15/11/2026
+
+### CA2 – measurements (Galaxy S26+)
+
+- 10-minute thermal soak, unplugged: 31.8 °C to 33.5 °C (+1.7 °C); Adaptive Performance stayed at NoWarning (level 0.55 to 0.61) and the bottleneck stayed TargetFrameRate.
+- Frame time over about 20 minutes: average 16.67 ms, p99 median 16.93 ms (worst 17.43 ms).
+- Profiler (dev build): about 2 ms of real CPU work per frame (the rest is VSync), 10 SetPass calls, 23.8k triangles, 51 B GC per frame, all from the Input System and none from my scripts; 374 MB resident.
+- Capture zipped as `docs/CA2/baseline/w09-slice.zip`.
+
+### CA2 – final features
+
+- BackButton: Android back quits from the menu (closing the About panel first if it's open) and goes back to the menu from the Result screen.
+- About panel on the main menu with the build stamp and a Give feedback button that opens the form.
+- Release 0.7.0 (versionCode 9), build ID `b84fe7de`, IL2CPP, ARM64; installed by tapping the APK on the phone, without adb.
+- Pause and resume tested 10 times; telemetry events checked in logcat.
+
+### CA2 – submission
+
+- Gameplay video uploaded to YouTube (unlisted); README, KnownIssues, Performance Baseline, event map and reflective journal updated.
+- Merged into main, tagged `v0.2-CA2`, and submitted the ZIP on Moodle.
+
+### Fixes
+
+- The first soak was only about 4 minutes; redid it for the full 10.
+- The dev build was saved over the release APK; rebuilt the release before committing.
+- Obsidian renamed `LINKS.txt` to `.md` and added backticks; renamed it back and removed them.
+- Pasting the screenshot into Obsidian made a note, not an image; copied the screenshot from the phone instead.
+- The Profiler capture was 102 MB, over GitHub's limit; zipped it.
+- The About panel's label and feedback button sat outside the panel, so they showed on the menu; moved them inside it.
+
+---
+
+## Date: 16/11/2026
+
+### Async Pack 2 – Store presence draft
+
+- 9-slide deck: icon moodboard (8 runner icons), a draft Whopper icon rendered from the in-game model, a 6-shot screenshot plan captured on the S26+ at 1080 x 2340, short description (79 / 80 characters), long description (1,026 / 4,000 characters) and a competitor scan of Subway Surfers, Temple Run 2 and CookieRun: OvenBreak.
+- Saved in `docs/async/AP2-store-presence/` with the PDF, listing text, icon and screenshots.
+- Minion Rush is no longer on Google Play, so it was replaced with Talking Tom Hero Dash in the moodboard.
+
+---
+
+## Date: 18/11/2026
+
+### Week 9 Lab B – Showcase feedback, Wed 11 Nov
+
+- The lecturer was positive about the slice; no blocking issues were raised.
+- Fix 1, side walls along the lane: the lane looked like it floated in empty space. Decision: do for CA3.
+- Fix 2, an About button on the main menu with the version, build details and the feedback form link. Decision: done before Sunday; it shipped in 0.7.0.
+- Fix 3, a biome change marked in the world: a wall or window spawns at the switch distance and the burger bursts through it as the second biome starts. Decision: do for CA3, only if the second biome is built; otherwise cut with the biome.
+- My own addition: restyle the Settings menu to match the game (rounded corners, kitchen colours), because it still uses default Unity UI. Decision: do for CA3.
+
+### Week 9 Lab B – Final-sprint targets
+
+- Wrote `docs/CA3/targets.md`: p99 at or under 17.5 ms at minute 10 of a soak, all six test scenarios passing on two phones with 20 of 20 crash-free sessions by 29 Nov, and the full set of store assets.
+
+---
+
 ## Reflections
 
 ### Week 2 – Lifecycle, accessibility, scope
@@ -399,3 +510,7 @@ The game can now read the phone's thermal state and bottleneck, and players can 
 ### Week 8 – Peer distribution and QA
 
 Every build now carries a stamp and a build ID, so feedback can be matched to an exact file. The test plan passed all six scenarios on the new phone, which means the save-on-change and pause handling from earlier weeks holds up. The biggest surprise was memory: the S26+'s larger screen pushed PSS to 374 MB, over my budget, so I need to review it. I also learned that a full logcat capture records every app on the phone, which made the file too big for GitHub.
+
+### Week 9 – Vertical slice and CA2
+
+The slice went from blocks to a playable kitchen in a few days: real models, a scrolling floor, ten chunk types, missions and a proper menu. The hardest bugs weren't in any one script but in how the numbers fit together: the higher jump, the speed ramp and the chunk spacing all depended on each other, and working out the distances (speed × time) explained why some sections were impossible. Measuring on the S26+ showed the game has lots of headroom: about 2 ms of real work per frame and only +1.7 °C after a 10-minute soak, so memory, not frame time, is the thing to improve for CA3.
